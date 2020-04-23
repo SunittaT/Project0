@@ -1,0 +1,96 @@
+
+#p1{
+  color:red;
+  font-size:40px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  text-decoration:underline;
+  margin-bottom: 10px;
+}
+#tag
+{
+  color:blue;
+  font-size:15px;
+  text-align: center;
+  margin-top:5px;
+  margin-bottom: 40px;
+}
+.btn-xl
+{
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+#Details1::first-letter {
+   font-style: italic;
+   font-size: 30px;
+   color: #34c6eb;
+ }
+#Details1
+{
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   margin: 30px;
+   margin-bottom: 5px;
+}
+#Details2::first-letter {
+   font-style: italic;
+   font-size: 30px;
+   color:#34c6eb;
+ }
+#Details2
+{
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   margin: 30px;
+   margin-top:5px;
+   margin-bottom: 5px;
+}
+
+@media screen and (max-width: 500px) {
+ #Details1{
+    display: none;
+  }
+}
+
+
+h3
+{
+text-decoration: underline;
+color: #34c6eb;
+margin: 30px;
+ margin-bottom: 5px;
+
+}
+ul > li
+{
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 30px;
+}
+input[type="text"]
+{
+  background-color: #34c6eb;
+  }
+
+a#a1:hover
+  {
+    background-color: yellow;
+
+  }
+a#a2::before
+  {
+      /* background-color: yellow; */
+      content:"Click here for "
+  }
+
+    a:visited
+     {
+  color: pink;
+}
+  footer{
+    text-align: center;
+    margin-top: 40px;
+  }
