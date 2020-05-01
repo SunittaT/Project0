@@ -1,32 +1,25 @@
+.jumbotron{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #e9f23f;
+}
 
-#p1{
-  color:red;
-  font-size:40px;
+.jumbotron > .display-3{
+  color:#43268c;
   font-style: italic;
+  font-family:serif;
   font-weight: bold;
-  text-align: center;
   text-decoration:underline;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
-#tag
-{
-  color:blue;
-  font-size:15px;
-  text-align: center;
+small{
+  color:black;
+  font-size: 15px;
   margin-top:5px;
-  margin-bottom: 40px;
 }
 
-.btn-xl
-{
-  padding: 10px 20px;
-  font-size: 20px;
-  border-radius: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
 
-}
-#Details1::first-letter {
+/* #Details1::first-letter {
    font-style: italic;
    font-size: 30px;
    color: #34c6eb;
@@ -34,7 +27,8 @@
 #Details1
 {
    font-family: Verdana, Arial, Helvetica, sans-serif;
-   margin: 30px;
+   margin-left: 30px;
+   margin-top: 20px;
    margin-bottom: 5px;
 }
 #Details2::first-letter {
@@ -48,7 +42,7 @@
    margin: 30px;
    margin-top:5px;
    margin-bottom: 5px;
-}
+} */
 
 @media screen and (max-width: 500px) {
  #Details1{
@@ -87,10 +81,10 @@ a#a2::before
       content:"Click here for "
   }
 
-    a:visited
+    /* a:visited
      {
   color: pink;
-}
+} */
   footer{
     text-align: center;
     margin-top: 40px;

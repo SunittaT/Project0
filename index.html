@@ -3,21 +3,38 @@
     <head>
       <meta name="viewport" content="width=device-width,initial-scale=1.0">
       <title>Home Page</title>
-      <link rel="stylesheet" href="style0.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="stylemain.css">
+      <link rel="stylesheet" href="style0.css">
+
     </head>
     <body>
 
-      <p id="p1" >Needle and Thread</p>
-      <p id="tag">An online shop</p>
-
-      <div class="group" align="center">
-        <button type="button" class="btn-xl" onclick="location.href='men.html'">Men</button>
-        <button type="button" class="btn-xl" onclick="location.href='women.html'">Women</button>
-        <button type="button" class="btn-xl" onclick="location.href='kids.html'">Kids</button>
-        <button type="button" class="btn-xl" onclick="location.href='contact.html'">Contact Us</button>
+      <div class="jumbotron text-center">
+        <h1 class="display-3">Needle and Thread</h1>
+        <small>An online shop</small>
       </div>
 
+      <div class="container" >
+         <ul class="nav nav-pills nav-justified">
+         <li class="nav-item">
+               <a class="nav-link active" href="index.html">Home</a>
+         </li>
+         <li class="nav-item">
+                <a class="nav-link" href="men.html">Men</a>
+         </li>
+         <li class="nav-item">
+               <a class="nav-link" href="women.html">Women</a>
+         </li>
+         <li class="nav-item">
+               <a class="nav-link" href="kids.html">Kids</a>
+         </li>
+         <li class="nav-item">
+                <a class="nav-link disabled" href="contact.html">Contact Us</a>
+         </li>
+        </ul><br>
+    </div>
 
       <div class="Details">
         <p id= "Details1">Welcome to the world of Needle and Threads ,where you can select your favourite outfits in reasonable price and latest fashion.</p>
@@ -44,6 +61,7 @@
         <p id="Details2">Shop latest collections of Kids Fashion for your boy and girl. We have a large set of Children Dresses with best deals on online shopping of Kids.Get the latest styles of shirts, t-shirts, jeans, dresses, ethnic wear for children at unbelievable prices!<a  id = "a2" href="kids.html">Kids</a></p>
 
       </div>
+
 
       <ul class="pager">
          <li class="previous"><a href="contact.html">Previous</a></li>

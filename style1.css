@@ -49,35 +49,6 @@
  padding-bottom:0.5em;
 
 }
-#P_Contact
-{
-  margin-left: 50px;
-  margin-top: 30px;
-  text-decoration: underline;
-  font-size: 22px;
-  color: #fa0707;
-}
-.table1 > table
-{
-    border:2px solid red;
-    border-collapse: collapse;
-    width: 50%;
-    margin-left: 50px;
-
-  }
-th,td
-{
-  border:2px solid red;
-  padding: 5px;
-  text-align: center;
-
-}
-input[type="text"]
-{
-  background-color: #34c6eb;
-  }
-
-
   footer{
     text-align: center;
     margin-top: 40px;
