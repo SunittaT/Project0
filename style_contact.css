@@ -1,0 +1,89 @@
+
+#p1{
+  color:red;
+  font-size:40px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  text-decoration:underline;
+  margin-bottom: 10px;
+}
+#tag{
+  color:blue;
+  font-size:15px;
+  text-align: center;
+  margin-top:5px;
+  margin-bottom: 40px;
+}
+.btn-group{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btn-xl{
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.container{
+ margin-top: 40px;
+ margin-bottom: 10px;
+}
+.col-sm{
+  color: black;
+  background-color: #87ccba;
+  border: 2px solid #6e6d6d;
+}
+
+#p2{
+  margin-left: 50px;
+  margin-top: 30px;
+  /* text-decoration: underline; */
+  font-size: 25px;
+  color: black;
+}
+.table1 > table{
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 50px;
+
+  }
+th,td{
+  border:2px solid #6e6d6d;
+  padding: 5px;
+  text-align: center;
+}
+input{
+  margin-bottom: 10px;
+
+}
+input[name="name"]{
+    margin-left: 50px;
+  }
+input[name="productId"]{
+    margin-left: 25px;
+  }
+input[name="email"]{
+      margin-left: 40px;
+  }
+input[name="mobileNo"]{
+      margin-left: 30px;
+  }
+input[name="comments"]{
+     margin-left: 2px;
+  }
+textarea{
+  margin-left: 50px;
+ }
+input[type="submit"]{
+       margin-left: 90px;
+ }
+
+footer{
+  text-align: center;
+  margin-top: 40px;
+  }

@@ -1,0 +1,20 @@
+.Details #Details1, .more #Details1 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 5px; }
+.Details #Details1::first-letter, .more #Details1::first-letter {
+  font-style: italic;
+  font-size: 30px;
+  color: #34c6eb; }
+.Details #Details2, .more #Details2 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+.Details #Details2::first-letter, .more #Details2::first-letter {
+  font-style: italic;
+  font-size: 30px;
+  color: #34c6eb; }
+
+/*# sourceMappingURL=stylemain.css.map */
