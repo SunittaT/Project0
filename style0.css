@@ -1,15 +1,16 @@
 .jumbotron{
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #faa2a2
+  background-color: #34c6eb;
 }
 
 .jumbotron > .display-3{
-  color:#43268c;
+  color:#fc8d8d;
   font-style: italic;
   font-family:serif;
   font-weight: bold;
   text-decoration:underline;
+  text-shadow:2px 2px 5px black;
   margin-bottom: 5px;
 }
 
@@ -24,7 +25,12 @@ small{
   color: white;
   font-family: serif;
   font-style: italic;
-  text-shadow:3px 3px 5px black;
+  text-shadow:2px 2px 3px black;
+}
+.active
+{
+  background-color: #fc8d8d !important;
+
 }
 /* #Details1::first-letter {
    font-style: italic;
